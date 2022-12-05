@@ -1,0 +1,4 @@
+rm -f a.out
+g++ -o a.out Dictionary.cpp Tiles.cpp Lex.cpp lex4pics.cpp
+./a.out
+exit 0
