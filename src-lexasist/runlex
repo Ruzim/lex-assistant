@@ -1,0 +1,4 @@
+rm -f lexasist.e pool*
+g++ -o lexasist.e Dictionary.cpp Tiles.cpp Lex.cpp lexasist.cpp
+./lexasist.e
+exit 0
